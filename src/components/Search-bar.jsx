@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Search() {
-    const [searchDate, setSearchDate] = useState('');
+    const [, setSearchDate] = useState('');
     const [filteredTransactions, setFilteredTransactions] = useState([]);
 
     const transactions = [
